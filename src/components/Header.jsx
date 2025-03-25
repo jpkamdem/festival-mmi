@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 
 export default function Header() {
   return (
-    <header className="bg-blanc-casse relative drop-shadow-2xl flex justify-between">
+    <header className="bg-blanc-casse relative drop-shadow-[0px_1px_6px_black] flex justify-between">
       <div>
         <Link to="/">
           <img src={logo} alt="Logo MMI" className="h-20 ml-2" />
