@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className="h-full w-[40dvw] mx-auto flex flex-col justify-center">
-      <p className="uppercase text-[12em] text-custom-rose font-bold w-[40dvw]">
+      <p className="uppercase py-6 leading-none text-[12em] text-custom-rose font-bold w-[40dvw]">
         festival mmi!
       </p>
       <p className="text-5xl font-bold text-violet">32 février 2047</p>
