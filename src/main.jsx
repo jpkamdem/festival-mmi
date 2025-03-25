@@ -5,6 +5,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import Home from "./pages/Home.jsx";
 import NotFound from "./pages/NotFound.jsx";
+import Laureats from "./pages/Laureats.jsx";
+import Selection from "./pages/Selection.jsx";
+import Connexion from "./pages/Connexion.jsx";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +17,18 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/selection",
+        element: <Selection />,
+      },
+      {
+        path: "/laureats",
+        element: <Laureats />,
+      },
+      {
+        path: "/connexion",
+        element: <Connexion />,
       },
       {
         path: "*",

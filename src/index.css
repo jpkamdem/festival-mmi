@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@theme {
+  --color-blanc-casse: oklch(95.81% 0 0);
+  --color-violet: oklch(35.03% 0.1092 310.23);
+  --color-custom-rose: oklch(65.31% 0.1681 4.09);
+}
+
+.header-links {
+  @apply font-bold text-xl text-violet hover:text-custom-rose hover:cursor-pointer;
+}
