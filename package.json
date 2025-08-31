@@ -2,7 +2,7 @@
   "name": "festival-mmi",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://jpkamdem.github.io/festival-mmi/",
+  "homepage": "https://jpkamdem.github.io/festival-mmi",
   "type": "module",
   "scripts": {
     "dev": "vite",
