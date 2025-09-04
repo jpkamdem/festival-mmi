@@ -23,11 +23,7 @@ function Project({ auteurs, oeuvre, catégorie, image }) {
 					</span>
 				))}
 			</p>
-			<img
-				src={image}
-				alt={oeuvre}
-				className="mt-3 w-full h-48 object-cover rounded"
-			/>
+			<img src={image} alt={oeuvre} className="w-full h-full object-contain" />
 		</div>
 	);
 }
